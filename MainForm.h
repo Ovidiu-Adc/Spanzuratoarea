@@ -1390,6 +1390,7 @@ private: System::Windows::Forms::DataGridView^ dgvScor;
             this->Controls->Add(this->flpJoc);
             this->Controls->Add(this->flpDomeniu);
             this->Controls->Add(this->flpMeniu);
+            this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
             this->Name = L"MainForm";
             this->Text = L"Spanzuratoarea";
             this->flpMeniu->ResumeLayout(false);
